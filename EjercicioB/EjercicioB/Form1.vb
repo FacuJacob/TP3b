@@ -17,6 +17,15 @@
                 mayor = num
                 b = cont1
             End If
+            a = num Mod 2
+            If a = 0 Then
+                contp = contp + 1
+
+            End If
         Next
+        CantPar.Text = "La cantidad de pares es: " & contp
+        May.Text = "El numero mayor es: " & mayor
+        Pos.Text = "El mayor esta ubicado en la posicion N° " & b
     End Sub
+
 End Class
