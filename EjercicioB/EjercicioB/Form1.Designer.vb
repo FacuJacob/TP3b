@@ -30,7 +30,7 @@ Partial Class Form1
         ' 
         ' Ejec
         ' 
-        Ejec.Location = New Point(98, 224)
+        Ejec.Location = New Point(39, 125)
         Ejec.Name = "Ejec"
         Ejec.Size = New Size(75, 23)
         Ejec.TabIndex = 0
@@ -40,29 +40,29 @@ Partial Class Form1
         ' CantPar
         ' 
         CantPar.AutoSize = True
-        CantPar.Location = New Point(66, 63)
+        CantPar.Location = New Point(39, 37)
         CantPar.Name = "CantPar"
-        CantPar.Size = New Size(41, 15)
+        CantPar.Size = New Size(102, 15)
         CantPar.TabIndex = 1
-        CantPar.Text = "Label1"
+        CantPar.Text = "Cantidad de pares"
         ' 
         ' May
         ' 
         May.AutoSize = True
-        May.Location = New Point(165, 64)
+        May.Location = New Point(39, 67)
         May.Name = "May"
-        May.Size = New Size(41, 15)
+        May.Size = New Size(88, 15)
         May.TabIndex = 2
-        May.Text = "Label1"
+        May.Text = "Numero Mayor"
         ' 
         ' Pos
         ' 
         Pos.AutoSize = True
-        Pos.Location = New Point(273, 67)
+        Pos.Location = New Point(39, 97)
         Pos.Name = "Pos"
-        Pos.Size = New Size(41, 15)
+        Pos.Size = New Size(60, 15)
         Pos.TabIndex = 3
-        Pos.Text = "Label1"
+        Pos.Text = "Ubicacion"
         ' 
         ' Form1
         ' 
