@@ -22,65 +22,65 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Ejec = New Button()
-        CantPar = New Label()
-        May = New Label()
-        Pos = New Label()
+        cmdEjec = New Button()
+        lblCantPar = New Label()
+        lblMay = New Label()
+        lblPos = New Label()
         SuspendLayout()
         ' 
-        ' Ejec
+        ' cmdEjec
         ' 
-        Ejec.Location = New Point(39, 125)
-        Ejec.Name = "Ejec"
-        Ejec.Size = New Size(75, 23)
-        Ejec.TabIndex = 0
-        Ejec.Text = "Ejecutar"
-        Ejec.UseVisualStyleBackColor = True
+        cmdEjec.Location = New Point(39, 125)
+        cmdEjec.Name = "cmdEjec"
+        cmdEjec.Size = New Size(75, 23)
+        cmdEjec.TabIndex = 0
+        cmdEjec.Text = "Ejecutar"
+        cmdEjec.UseVisualStyleBackColor = True
         ' 
-        ' CantPar
+        ' lblCantPar
         ' 
-        CantPar.AutoSize = True
-        CantPar.Location = New Point(39, 37)
-        CantPar.Name = "CantPar"
-        CantPar.Size = New Size(102, 15)
-        CantPar.TabIndex = 1
-        CantPar.Text = "Cantidad de pares"
+        lblCantPar.AutoSize = True
+        lblCantPar.Location = New Point(39, 37)
+        lblCantPar.Name = "lblCantPar"
+        lblCantPar.Size = New Size(102, 15)
+        lblCantPar.TabIndex = 1
+        lblCantPar.Text = "Cantidad de pares"
         ' 
-        ' May
+        ' lblMay
         ' 
-        May.AutoSize = True
-        May.Location = New Point(39, 67)
-        May.Name = "May"
-        May.Size = New Size(88, 15)
-        May.TabIndex = 2
-        May.Text = "Numero Mayor"
+        lblMay.AutoSize = True
+        lblMay.Location = New Point(39, 67)
+        lblMay.Name = "lblMay"
+        lblMay.Size = New Size(88, 15)
+        lblMay.TabIndex = 2
+        lblMay.Text = "Numero Mayor"
         ' 
-        ' Pos
+        ' lblPos
         ' 
-        Pos.AutoSize = True
-        Pos.Location = New Point(39, 97)
-        Pos.Name = "Pos"
-        Pos.Size = New Size(60, 15)
-        Pos.TabIndex = 3
-        Pos.Text = "Ubicacion"
+        lblPos.AutoSize = True
+        lblPos.Location = New Point(39, 97)
+        lblPos.Name = "lblPos"
+        lblPos.Size = New Size(60, 15)
+        lblPos.TabIndex = 3
+        lblPos.Text = "Ubicacion"
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(800, 450)
-        Controls.Add(Pos)
-        Controls.Add(May)
-        Controls.Add(CantPar)
-        Controls.Add(Ejec)
+        ClientSize = New Size(365, 179)
+        Controls.Add(lblPos)
+        Controls.Add(lblMay)
+        Controls.Add(lblCantPar)
+        Controls.Add(cmdEjec)
         Name = "Form1"
         Text = "Form1"
         ResumeLayout(False)
         PerformLayout()
     End Sub
 
-    Friend WithEvents Ejec As Button
-    Friend WithEvents CantPar As Label
-    Friend WithEvents May As Label
-    Friend WithEvents Pos As Label
+    Friend WithEvents cmdEjec As Button
+    Friend WithEvents lblCantPar As Label
+    Friend WithEvents lblMay As Label
+    Friend WithEvents lblPos As Label
 End Class

@@ -1,5 +1,5 @@
 ﻿Public Class Form1
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Ejec.Click
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles cmdEjec.Click
         Dim cont1 As Integer
         Dim contp As Integer
         Dim mayor As Integer
@@ -23,9 +23,9 @@
 
             End If
         Next
-        CantPar.Text = "La cantidad de pares es: " & contp
-        May.Text = "El numero mayor es: " & mayor
-        Pos.Text = "El mayor esta ubicado en la posicion N° " & b
+        lblCantPar.Text = "La cantidad de pares es: " & contp
+        lblMay.Text = "El numero mayor es: " & mayor
+        lblPos.Text = "El mayor esta ubicado en la posicion N° " & b
     End Sub
 
 End Class
